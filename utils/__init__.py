@@ -1,2 +1,1 @@
 from .data_generator import DataGenerator
-from .special_GP import SpecialGaussProcessPosterior

@@ -22,5 +22,6 @@ docs/build/
 # old files
 **/old
 
-# summary
+# summary & data
 summary/
+data/
