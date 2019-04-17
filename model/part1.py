@@ -13,10 +13,10 @@ config = bunch.Bunch(
      'n_features': 500,
      'n_components': 10,
      'n_iterations': 1000,
-     'learning_rate': 0.05}
+     'learning_rate': 0.01}
 )
 
-train_file = '../data/new_train.npy'
+train_file = '../data/train.npy'
 observed_data = DataGenerator(train_file, config.n_features)
 
 with tf.name_scope('data'):

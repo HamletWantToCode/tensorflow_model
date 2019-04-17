@@ -13,8 +13,8 @@ config = bunch.Bunch(
      'n_components': 10}
 )
 
-train_file = '../data/new_train.npy'
-test_file = '../data/new_test.npy'
+train_file = '../data/train.npy'
+test_file = '../data/test.npy'
 observed_data = DataGenerator(train_file, config.n_features)
 new_data = DataGenerator(test_file, config.n_features)
 
