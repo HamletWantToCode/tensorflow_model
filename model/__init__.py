@@ -1,1 +1,0 @@
-from .GP_regression import GaussProcessRegression
